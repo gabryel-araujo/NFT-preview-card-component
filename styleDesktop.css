@@ -1,0 +1,20 @@
+/* Css for Desktop Breakpoint specified on the style-guide.md */
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .card{
+        width: 25vw;
+        height: fit-content;
+    }
+
+    .equilibrium-image{
+        width: 300px;
+    }
+}
